@@ -22,9 +22,7 @@ Dependencies
     Streamlit: To run the web-based interactive UI.
     Pandas: To handle data manipulation.
     NumPy: For numerical operations.
-    Scikit-learn: To perform predictive analytics.
     Matplotlib: For visualizing data.
-    OpenAI (Optional for AI Help): To use AI for providing hints (requires an API key from OpenAI).
 
 Installation Guide
 Step 1: Clone or Download the Game Repository
@@ -44,14 +42,13 @@ Step 2: Install Dependencies
 
 In your terminal or command prompt, navigate to the directory where you downloaded/cloned the game. Then, use the following command to install all the required libraries:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 This will install the following dependencies:
 
     streamlit
     pandas
     numpy
-    scikit-learn
     matplotlib
 
 If you're missing any dependencies, you can install them individually using pip install <library>.
@@ -64,7 +61,7 @@ Once everything is set up, you're ready to run the game!
     Navigate to the project folder where the game files are located.
     Run the game using Streamlit by typing the following command:
 
-streamlit run game.py
+    streamlit run streamlit_app.py
 
 This will start the game on a local server. Streamlit will open your default web browser, and you should see the game interface running.
 
