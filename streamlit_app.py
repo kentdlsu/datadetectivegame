@@ -29,7 +29,7 @@ dataset = generate_dataset()
 # ---------- Game Logic ----------
 # Introduction
 def introduction():
-    st.title("Crack the Pattern to Catch the Robber!")
+    st.title("Catch the Robber!")
     st.markdown("""
     You are a detective solving a string of mysterious robberies.  
     Use data cleaning, exploration, and predictive analytics to track the robber's next move.
